@@ -1,7 +1,8 @@
 
 def message(name):
-    if name == 'Tobias':
+    a = 'Tobias'
+    if name == a.lower:
         print('Hello' + str(name))
     else:
         print('nonono')
-message('Tobias') 
+message('tobias') 
